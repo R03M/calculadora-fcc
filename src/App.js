@@ -1,12 +1,12 @@
 import './App.css';
-import freecodecamp from './img/freecodecamp.png';
+import freecodecamp from './img/freecodecamp-logo.png';
 import Boton from './componentes/Boton.js';
 import Pantalla from './componentes/Pantalla.js';
 import BotonClear from './componentes/BotonClear.js';
 import { useState } from 'react';
 import { evaluate } from 'mathjs'
-import mrbluelogo from './img/Letras_blancas.png';
-import logo from './img/Logo.png';
+import mrbluelogo from './img/Letras_blanca.png';
+
 
 
 function App() {
@@ -34,11 +34,7 @@ function App() {
       className='letras'
       src={mrbluelogo}
       alt='Letras del logo de Mr. Blue' />
-      <img
-      className='logo'
-      src={logo}
-      alt='Logo de Mr. Blue' />
-
+   
     </div>
 
       <div className='freecodecamp-logo-conten'>
